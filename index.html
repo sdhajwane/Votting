@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Online Votting System  </h1>
+    <div class="container">
+    <Form action="api/login.php" method="post">
+    <H3>Login</H3>
+    
+        <input type="number" name="mobile" placeholder="enter mobile"><br><br>
+        <input type="password" name="password" placeholder="enter password"><br><br>
+        <select name="role"><br>
+            <option value="1">voter</option>
+            <option value="2">group</option>
+        </select><br><br>
+        <button id="loginbtn" type="submit">Login</button><br><br>
+        
+       Not a User? <A href="routes/register.html">Resistration now</A>
+    </Form>
+</div>
+</body>
+
+</html>

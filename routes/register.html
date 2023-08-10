@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="../css/style.css">
+ 
+</head>
+
+<body>
+    
+    <h1>Online Votting System  </h1>
+    <div class="container">
+    <Form action="../api/register.php" method="post" enctype="multipart/form-data">
+    <H3>Sign in</H3>
+        <input type="text" name="name" placeholder="enter name">
+        <input type="number" name="mobile" placeholder="enter mobile">
+        <input type="password" name="password" placeholder="Create password">
+        <input type="password" name="cpassword" placeholder="Confirm password">
+        <input type="text" name="address" id="Address" placeholder="Address">
+        Upload Image: <input type="file" name="photo" id="imagepart">
+        Select role: <select name="role" id="role">
+            <option value="1">voter</option>
+            <option value="2">group</option>
+        </select>
+        
+        <button class="action-button">Register</button><br>
+
+        Alredy a Member? <A href="../index.html"> Login Here</A>
+    </Form>
+</div>
+</body>
+
+</html>
